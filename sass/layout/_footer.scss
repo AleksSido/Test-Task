@@ -1,0 +1,145 @@
+.footer {
+	background: #221e1b url("../images/wood_pattern.jpg") repeat left top;
+	overflow: auto;
+	/*positioning*/
+	position: relative;
+	z-index: 10;
+	margin-top: 40px;
+}
+.footer__wrapper {
+	text-align: center;
+	max-width: $desktop-max-width;
+	/*positioning*/
+	padding-right: (20px/$desktop-max-width)*100%;
+	padding-left: (20px/$desktop-max-width)*100%;
+	margin: auto;
+}
+@mixin footer__wrapper--lg {
+	.footer__wrapper {
+		text-align: left;
+	}
+}
+.contacts-container {
+	width: 228px;
+	/*positioning*/
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 17px;
+	margin-left: 3px;
+}
+.contacts-container__heading,
+.find-us__heading,
+.write-us__heading {	
+	font-family: 'Roboto', sans-serif;
+	@include font-size(16px);
+	font-weight: bold;
+	line-height: 1.438;	
+	text-transform: uppercase;
+	/*positioning*/
+	margin-bottom: 19px;
+	margin-top: 25px;
+}
+.contacts-container__heading_default-theme,
+.find-us__heading_default-theme,
+.write-us__heading_default-theme,
+.contacts-container__address_default-theme,
+.contacts-container__contacts_default-theme,
+.contacts-container__tel-to-call_default-theme {
+	color: $footer-text-color;
+}
+.contacts-container__address,
+.contacts-container__contacts {
+	font-family: 'Roboto', sans-serif;
+	@include font-size(14px);
+	line-height: 1.7;
+	font-style: normal;
+}
+.contacts-container__tel-to-call {
+	text-decoration: none;	
+}
+.find-us {
+	width: 100%;
+	/*positioning*/
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 13px;
+}
+.find-us__google-map {
+	width: 100%;
+	height: 177px;
+	/*positioning*/
+	margin-bottom: 30px;
+}
+@mixin find-us--sm {
+	.find-us {
+		width: auto;
+	}
+}
+@mixin find-us__google-map--lg {
+	.find-us__google-map {
+		width: 475px;
+	}
+}
+.write-us {
+	/*positioning*/
+	vertical-align: top;
+	display: inline-block;
+}
+.write-us__input-name,
+.write-us__input-email {
+	width: 208px;
+	height: 24px;
+	font-family: 'Roboto', sans-serif;
+	@include font-size(14px);
+	line-height: 1.643;	
+	padding: 0 8px;
+	/*positioning*/
+	margin-bottom: 4px;
+}
+.write-us__textarea {
+	width: 208px;
+	height: 76px;
+	font-family: 'Roboto', sans-serif;
+	@include font-size(14px);
+	padding: 0 8px;	
+}
+.write-us__input-name_default-theme,
+.write-us__input-email_default-theme,
+.write-us__textarea_default-theme {
+	border: 1px solid $header-background-color;
+	background-color: rgba(255, 255, 255, 0.8);
+	color: $base-text-color;
+}
+.write-us__input-submit {
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 2.143;
+	@include font-size(14px);
+	text-transform: uppercase;
+	padding: 0;
+	border: none;
+	/*positioning*/ 
+	float: right;
+}
+.write-us__input-submit_default-theme {
+	color: $header-text-color;
+	background-color: $header-background-color;
+	&:hover {
+		color: $header-background-color;
+		background-color: $header-text-color;
+	}
+}
+.copyright-container__copyright {
+	font-family: 'Roboto', sans-serif;
+	@include font-size(11px);
+	line-height: 2.091;	
+}
+.copyright-container {
+	text-align: center;
+}
+.copyright-container__copyright_default-theme,
+.copyright-container__copyright-link_default-theme {
+	color: $footer-text-color;	
+}
