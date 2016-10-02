@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400|Lato|Open+Sans|Roboto|Roboto+Condensed" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -337,7 +338,7 @@
 				<form class="write-us__form" action="index.php">
 					<input type="text" class="write-us__input-name write-us__input-name_default-theme" placeholder="Name"><br>
 					<input type="email" class="write-us__input-email write-us__input-email_default-theme" placeholder="E-mail"><br>
-					<textarea name="message" id="" cols="30" rows="10" class="write-us__textarea write-us__textarea_default-theme" placeholder="Message"></textarea><br>
+					<textarea name="message" cols="30" rows="10" class="write-us__textarea write-us__textarea_default-theme" placeholder="Message"></textarea><br>
 					<input type="submit" class="write-us__input-submit write-us__input-submit_default-theme" value="SUBMIT">
 				</form>
 			</div><!-- write us container -->
@@ -345,6 +346,7 @@
 			<div class="copyright-container">
 				<p class="copyright-container__copyright copyright-container__copyright_default-theme">Copyright &copy; 2015 SAI GB Ltd. <a class="copyright-container__copyright-link_default-theme" href="#">Privacy Policy and Terms &amp; Conditions</a></p>
 			</div><!-- copyright container -->
+		</div>	
 	</footer><!-- FOOTER -->
 	<script src="scripts/main.js"></script>
 </body>
