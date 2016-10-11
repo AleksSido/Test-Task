@@ -139,7 +139,7 @@ function opacityImageDecrease(timestamp) {
   	   	    	  sliderNavigationButton[slidesNumber].classList.add('slider-navigation__button_active');
   	   	    	  sliderWrapperSlide[0].style.zIndex = 3;
                 /* jshint ignore:start */
-  	   	    	  for (for i = 1; i < sliderWrapperSlide.length; i++) {
+  	   	    	  for (var i = 1; i < sliderWrapperSlide.length; i++) {
   	   	    	  	sliderWrapperSlide[i].style.opacity = 1;
   	   	    	  }
                 /* jshint ignore:end */
