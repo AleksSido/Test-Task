@@ -11,23 +11,8 @@ body {
 	clear: both;
 }
 
-@keyframes positionToggle {
-  0% {
-    opacity: 0; }
-  20% {
-    opacity: 1; }
-  30% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  75% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-
 @import "helpers/variables";
 @import "helpers/mixins";
-@import "helpers/placeholders";
 @import "layout/header";
 @import "layout/slider";
 @import "layout/about-us";

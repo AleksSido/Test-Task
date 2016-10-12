@@ -31,14 +31,6 @@
 		max-height: 600px;		
 	}	
 }
-/*animation*/
-
-@for $i from 1 through 4 {
-	.slider-wrapper__slide:nth-child(#{$i}) {
-		/*@extend %animation-properties;
-		animation-delay: ($i - 1)*10s; */
-	}
-}
 .slider-wrapper__image {
 	object-fit: cover;
 	width: 100%;
